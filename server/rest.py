@@ -7,6 +7,6 @@ def enable_cors():
 
 @route('/hello/:name')
 def index(name='World'):
-	return dumps([{'key':'value'}]);
+	return dumps([{'key':'Congratulations. It works.'}]);
 
 run(host='localhost', port=8080)
