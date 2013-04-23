@@ -17,4 +17,4 @@ Quick Start
 
 3. Go to:
 
-http://localhost/angular-json-rest/index.html
+[http://localhost/angular-json-rest/index.html] http://localhost/angular-json-rest/index.html
