@@ -1,7 +1,7 @@
 angular-rest-json
 =================
 
-Hello World Angular JS example that calls a minimal Python REST service (implemented with Bottle), returning JSON, with Cross Origin Resource Sharing (CORS) enabled  
+This is a Hello World Angular JS example page that calls a minimal Python REST service (implemented with Bottle), returning JSON, with Cross Origin Resource Sharing (CORS) enabled.
 
 Quick Start
 -----------
@@ -14,7 +14,7 @@ Quick Start
 
         cd htdocs
         ln -s angular-json-rest .
-(note: all parent dirs of the physical target must have the right permissions)
+(note: all parent dirs of the physical angular-json-rest directory must have the right permissions)
         
 3. Go to [http://localhost/angular-json-rest/index.html](http://localhost/angular-json-rest/index.html)
 
