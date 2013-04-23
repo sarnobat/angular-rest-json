@@ -16,3 +16,8 @@ Quick Start
         ln -s angular-json-rest .
 
 3. Go to [http://localhost/angular-json-rest/index.html](http://localhost/angular-json-rest/index.html)
+
+Errors, ambiguities, omissions?
+-------------------------------
+
+Please report an issue
