@@ -27,4 +27,4 @@ Requirements
 ------------
 * Python
 
-Everything else should be included in the repository.
+Everything else is provided in this repository.
