@@ -7,11 +7,14 @@ Quick Start
 -----------
 
 1. Start the server
+
         sh server.sh
 
 2. Deploy the client in your Apache instance
+
         cd htdocs
         ln -s angular-json-rest .
-3 Go to:
+
+3. Go to:
 
 http://localhost/angular-json-rest/index.html
