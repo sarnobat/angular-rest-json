@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="myApplication">
+<head>
+  <script src="client/lib/angular/angular.js"></script>
+  <script src="client/lib/angular/angular-resource.js"></script>
+  <script>
+	// App Module
+	angular.module('myApplication', ['myRestServices'])
+		.config(['$httpProvider', 
+			function($httpProvider) {
+    			delete $httpProvider.defaults.headers.common['X-Requested-With'];
+    		}
+    	]);
+	
+	// Services
+	angular.module('myRestServices', ['ngResource'])
+		.factory('myResource', 
+			function($resource){
+				return $resource('http://localhost:port/hello/sridhar', {'port':':8080'});
+			}
+		);
+
+	// Controllers 
+	function PhoneListCtrl($scope, myResource) {
+	  var p = myResource.query();
+	  $scope.phones = p;
+	}
+	</script>
+</head>
+<body>
+    <div ng-controller="PhoneListCtrl">
+          <!--Hello {{phones[0].name}}!-->
+          {{phones[0].key}}
+    </div>
+</body>
+</html>
