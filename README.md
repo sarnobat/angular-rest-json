@@ -22,3 +22,8 @@ Errors, ambiguities, omissions?
 -------------------------------
 
 Please [create an issue](https://github.com/sarnobat/angular-rest-json/issues/new)
+
+Requirements
+------------
+* Python
+Everything else should be included in the repository.
