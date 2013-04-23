@@ -20,4 +20,4 @@ Quick Start
 Errors, ambiguities, omissions?
 -------------------------------
 
-Please report an issue
+Please [create an issue](https://github.com/sarnobat/angular-rest-json/issues/new)
