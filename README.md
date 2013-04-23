@@ -14,7 +14,8 @@ Quick Start
 
         cd htdocs
         ln -s angular-json-rest .
-
+(note: all parent dirs of the physical target must have the right permissions)
+        
 3. Go to [http://localhost/angular-json-rest/index.html](http://localhost/angular-json-rest/index.html)
 
 Errors, ambiguities, omissions?
