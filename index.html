@@ -16,7 +16,7 @@
 	angular.module('myRestServices', ['ngResource'])
 		.factory('myResource', 
 			function($resource){
-				return $resource('http://localhost:port/hello/sridhar', {'port':':8080'});
+				return $resource('http://localhost:port/hello/world', {'port':':8080'});
 			}
 		);
 
@@ -29,7 +29,6 @@
 </head>
 <body>
     <div ng-controller="PhoneListCtrl">
-          <!--Hello {{phones[0].name}}!-->
           {{phones[0].key}}
     </div>
 </body>
