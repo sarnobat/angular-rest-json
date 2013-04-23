@@ -12,7 +12,7 @@ Quick Start
 
 2. Deploy the client in your Apache instance
 
-        cd htdocs
+        cd $APACHE_HOME/htdocs
         ln -s angular-json-rest .
 (note: all parent dirs of the physical angular-json-rest directory must have the right permissions)
         
@@ -22,3 +22,8 @@ Errors, ambiguities, omissions?
 -------------------------------
 
 Please [create an issue](https://github.com/sarnobat/angular-rest-json/issues/new)
+
+Requirements
+------------
+* Python
+Everything else should be included in the repository.
