@@ -6,14 +6,12 @@ Hello World Angular JS example that calls a minimal Python REST service (impleme
 Quick Start
 -----------
 
-# Start the server
-sh server.sh
+1. Start the server
+        sh server.sh
 
-# Deploy the client in your Apache instance
-cd htdocs
-ln -s angular-json-rest .
-
-
-Go to:
+2. Deploy the client in your Apache instance
+        cd htdocs
+        ln -s angular-json-rest .
+3 Go to:
 
 http://localhost/angular-json-rest/index.html
