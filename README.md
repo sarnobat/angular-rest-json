@@ -35,5 +35,5 @@ How Angular Works
 Don't get scared of it. It's a simple flow, despite all the noise:
 
 ```
-1) Programmatic javascript setup ======> REST Server <======= read data from service that is wrapped in angular object
+1) Programmatic javascript setup ======> REST Server <======= 2) read data from service that is wrapped in angular object
 ```
